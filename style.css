@@ -1,0 +1,41 @@
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-flow: column-reverse;
+
+    
+}
+.flex-container>div{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+   
+}
+.div1{
+    width: 150px;
+    background-color: rgb(10, 9, 9);
+    color: #fff;
+    padding: 20px;
+    flex-shrink: calc(50%);
+}
+.div2{
+    width: 150px;
+    background-color: rgb(10, 9, 9);
+    color: #fff;
+    padding: 20px;
+    flex-basis: 50%;
+}
+.div3{
+    width: 150px;
+    background-color: rgb(10, 9, 9);
+    color: #fff;
+    padding: 20px;
+}
+.div4{
+    width: 150px;
+    background-color: rgb(10, 9, 9);
+    color: #fff;
+    padding: 20px;
+}
